@@ -58,3 +58,7 @@ The other alternative is to have a reduced hardware with a single register to ho
 
 ![Sequential Multiplier](./fig/seqmult.png)
 
+## HowTo
+
+The `run.sh` script performs all the steps required to compile and test your code.  It assumes the RISCV toolchain is installed. If you install on your own system you need to make the appropriate settings.
+
