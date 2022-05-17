@@ -1,0 +1,12 @@
+cpu.v
+cpu_tb.v
+dmem.v
+imem.v
+alu_control.v 
+alu32.v 
+branch.v
+control.v
+imm_gen.v
+load.v
+reg_file.v
+store.v
