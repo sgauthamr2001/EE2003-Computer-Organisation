@@ -13,7 +13,3 @@ Most of the things are the same as the original a4. You will notice that in the 
 **IMPORTANT**: Add all your verilog module file names in synth.ys in the line read verilog. For help, already regfile.v and and alu.v have been added. If you do not have these files delete them from synth.ys and add your files.
 
 Once you have confirmed that your code passes all the tests, commit all the changes, tag it for submission, and push to your repository.
-
-## Date
-
-Due Midnight, Oct 9, 2021
