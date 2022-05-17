@@ -35,14 +35,4 @@ You are given a test bench that will call a function written by you with differe
 
 ## HowTo
 
-Fork this repostiry (`EE2003-2021/a2`) into your namespace so that you can edit and push changes.
-
-The `run.sh` script performs all the steps required to compile and test your code.  It assumes the RISCV toolchain is installed in a certain path as set up on the Jupyter server for the course.  If you install on your own system you need to make the appropriate settings.
-
-**IMPORTANT**: do not rename files or create new files - otherwise the auto-grader will not recognize it.  Even if you change the `.drone.yml` file, the system will repeat the tests with different configuration files, and your changes will most likely not be recognized then.
-
-Once you have confirmed that your code passes all the tests, commit all the changes, tag it for submission, and push to your repository.
-
-## Date
-
-Due Midnight, Sep 10, 2021
+The `run.sh` script performs all the steps required to compile and test your code.  It assumes the RISCV toolchain is installed. If you install on your own system you need to make the appropriate settings.
