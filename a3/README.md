@@ -31,10 +31,6 @@ $ riscv32-unknown-elf-gcc -c dump.s
 $ riscv32-unknown-elf-objdump -d -Mnumeric,no-aliases dump.o
 ```
 
-### Grading
-
-Assignment 3 (ALU + Load/Store) and 4 (Branch) use the same test bench, and only differ in the test cases.  Therefore if you submit the same code for both that is perfectly fine.  However, if you have trouble implementing branching, you are advised to ensure that the ALU and Load/Store are correctly implemented so you get full credit for A3.
-
 ## HowTo
 
 The `run.sh` script performs all the steps required to compile and test your code.  The `iverilog` compiler is used for running the verilog simulations.
