@@ -37,14 +37,5 @@ Assignment 3 (ALU + Load/Store) and 4 (Branch) use the same test bench, and only
 
 ## HowTo
 
-Fork this repostiry (`EE2003-2021/a3`) into your namespace so that you can edit and push changes.
-
 The `run.sh` script performs all the steps required to compile and test your code.  The `iverilog` compiler is used for running the verilog simulations.
 
-**IMPORTANT**: do not rename files or create new files - otherwise the auto-grader will not recognize it.  Even if you change the `.drone.yml` file, the system will repeat the tests with different configuration files, and your changes will most likely not be recognized then.
-
-Once you have confirmed that your code passes all the tests, commit all the changes, tag it for submission, and push to your repository.
-
-## Date
-
-Due Midnight, Sep 25, 2021
