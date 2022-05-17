@@ -1,0 +1,3 @@
+read_verilog picorv32.v axi4_mem_periph.v seq_mult.v
+synth_xilinx -top picorv32
+write_verilog picorv32_synth.v
