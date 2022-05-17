@@ -13,6 +13,3 @@ You will now need to instantiate your seq_mult.v (add a line to the appropriate 
 
 ## Test
 To run the test, you can just type `make` in the main folder.  This will compile the Verilog files for simulation with `iverilog`, and will also compile the C code to generate a *hex* file (instructions and data in hexadecimal format) that can be loaded into the CPU memory for execution.
-
-The C code will feed in 2 numbers, and test whether the output from your multiplier is correct.  Of course you can cheat and just return the product from your `Mult_GetResult` function, but for the final tests we will be running with separate test code, so changes you make in the C code will not be reflected there.  You could also just do the multiplication in Verilog and return the result.  Neither of these is going to teach you anything about computer design, so if you need to do this to get at least a partial result, please indicate this properly in your code so that we can consider it for partial marks.
-
