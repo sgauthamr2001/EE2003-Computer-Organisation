@@ -1,3 +1,0 @@
-read_verilog cpu.v control.v imm_gen.v alu_control.v alu32.v branch.v reg_file.v load.v store.v 
-synth_xilinx -top cpu
-write_verilog cpu_synth.v
